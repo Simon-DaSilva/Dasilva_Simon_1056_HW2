@@ -80,6 +80,9 @@ body, p, h1, h2, h3, h4, h5 {
    display: grid; 
 	grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
 }
+#service-image {
+   display: none;
+}
 
  .grid-con { 
    display: grid;
@@ -114,7 +117,10 @@ body, p, h1, h2, h3, h4, h5 {
 
 /* ---Tablet Library Grid Styles--- */
 @media screen and (min-width: 768px) { 
-
+   #service-image {
+      display: none;
+   }
+   
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -168,6 +174,9 @@ body, p, h1, h2, h3, h4, h5 {
 /* ---Desktop Library Grid Styles--- */
 
 @media screen and (min-width: 1200px) { 
+   #service-image {
+      display: grid;
+   }
 
    .grid-con { 
       display: grid; 
