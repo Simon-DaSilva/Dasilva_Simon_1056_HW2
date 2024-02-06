@@ -39,6 +39,37 @@ body, p, h1, h2, h3, h4, h5 {
    margin-bottom:10px;
  }
 
+ .box-big {
+   background-color: powderblue;
+   color: rgb(27, 27, 27);
+   border-radius: 5px;
+   padding: 150px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+
+ .box-mid {
+   background-color: powderblue;
+   color: rgb(27, 27, 27);
+   border-radius: 5px;
+   padding: 75px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+
+ .box-service {
+   background-color: powderblue;
+   color: rgb(27, 27, 27);
+   border-radius: 5px;
+   padding: 100px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+
+
 
 
 /* ---Mobile Library Grid Styles--- */
